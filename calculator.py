@@ -43,3 +43,8 @@ elif choice == "4":
 
 else:
     print("Invalid choice")
+
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
