@@ -1,1 +1,12 @@
-print("Hello from Saniya")
+```python
+secret_number = 7
+
+guess = int(input("Guess a number between 1 and 10: "))
+
+if guess == secret_number:
+    print("Correct! You guessed the number.")
+elif guess < secret_number:
+    print("Too low!")
+else:
+    print("Too high!")
+```
