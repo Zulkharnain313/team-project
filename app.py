@@ -132,7 +132,7 @@ Thank you for your purchase!
                 SENDER_APP_PASSWORD
             )
 
-            server.send_message(message)
+            server.send_message(messages)
 
         messagebox.showinfo(
             "Success",
@@ -381,3 +381,4 @@ final_result.pack(pady=10)
 # =========================================================
 
 root.mainloop()
+# i have added 
